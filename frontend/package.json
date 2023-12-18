@@ -1,0 +1,23 @@
+{
+  "name": "ebook-store",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "svelte": "^3.55.1",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "bip21": "^2.0.3",
+    "socket.io-client": "^4.6.1",
+    "svelte-navigator": "^3.2.2",
+    "svelte-qrcode": "^1.0.0",
+    "sweetalert2": "^11.7.3"
+  }
+}
